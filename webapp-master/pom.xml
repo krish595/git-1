@@ -18,4 +18,15 @@
   <build>
     <finalName>WebApp</finalName>
   </build>
+  <distributionManagement>
+    
+    <repository>
+      <id>maven-release</id>
+      <name>maven-release</name>
+      <url>http://192.168.31.240:8081/repository/maven-releases/</url>
+    </repository>
+  </distributionManagement>
+  
+  
+  
 </project>
